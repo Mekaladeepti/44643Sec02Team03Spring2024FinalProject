@@ -35,5 +35,15 @@ Signup Page: Created basic UI and completed auto layout.
 
 
 
+![WhatsApp Image 2024-02-23 at 23 31 50_f5821426](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/59ac921c-ab76-4004-bdc9-9624cd61caae)
+
+
+![WhatsApp Image 2024-02-23 at 23 31 50_19480eaa](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/9bff1536-3608-4e19-8eed-4c378882b834)
+
+
+![WhatsApp Image 2024-02-23 at 23 31 50_d8de6cfd](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/70cc5035-ca6f-42b8-afd2-31dda7e11ed5)
+
+
+
 
 
