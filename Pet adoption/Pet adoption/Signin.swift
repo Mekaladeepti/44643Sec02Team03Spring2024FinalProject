@@ -9,6 +9,11 @@ import UIKit
 
 class Signin: UIViewController {
 
+    @IBAction func sigin(_ sender: UIButton) {
+    }
+    @IBOutlet weak var pwdtxt: UITextField!
+    @IBOutlet weak var emailtxt: UITextField!
+    @IBOutlet weak var siginBTN: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
