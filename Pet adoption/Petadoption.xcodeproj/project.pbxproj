@@ -11,11 +11,14 @@
 		2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608B5782B89019500EE3F36 /* SignupVC.swift */; };
 		2608B5942B8905C500EE3F36 /* pet.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2608B5932B8905C500EE3F36 /* pet.gif */; };
 		2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608B5972B8905DD00EE3F36 /* AnimationScreen.swift */; };
+		2608B59A2B8909E000EE3F36 /* Mp3Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608B5992B8909E000EE3F36 /* Mp3Player.swift */; };
+		2608B59C2B890C6A00EE3F36 /* dogSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2608B59B2B890C6A00EE3F36 /* dogSound.mp3 */; };
 		2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627C2692B885209005DEC0B /* AppDelegate.swift */; };
 		2627C26C2B885209005DEC0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627C26B2B885209005DEC0B /* SceneDelegate.swift */; };
 		2627C2712B885209005DEC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2627C26F2B885209005DEC0B /* Main.storyboard */; };
 		2627C2732B88520B005DEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2627C2722B88520B005DEC0B /* Assets.xcassets */; };
 		2627C2762B88520B005DEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2627C2742B88520B005DEC0B /* LaunchScreen.storyboard */; };
+		2627C27E2B885265005DEC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2627C27D2B885265005DEC0B /* GoogleService-Info.plist */; };
 		26952BD12B890D5B00815A0E /* clap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26952BD02B890D5B00815A0E /* clap.gif */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,8 @@
 		2608B5782B89019500EE3F36 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		2608B5932B8905C500EE3F36 /* pet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pet.gif; sourceTree = "<group>"; };
 		2608B5972B8905DD00EE3F36 /* AnimationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationScreen.swift; sourceTree = "<group>"; };
+		2608B5992B8909E000EE3F36 /* Mp3Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3Player.swift; sourceTree = "<group>"; };
+		2608B59B2B890C6A00EE3F36 /* dogSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dogSound.mp3; sourceTree = "<group>"; };
 		2627C2662B885209005DEC0B /* Pet adoption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet adoption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2627C2692B885209005DEC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2627C26B2B885209005DEC0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		2627C2722B88520B005DEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2627C2752B88520B005DEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2627C2772B88520B005DEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2627C27D2B885265005DEC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26952BD02B890D5B00815A0E /* clap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clap.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				26952BD02B890D5B00815A0E /* clap.gif */,
+				2608B5992B8909E000EE3F36 /* Mp3Player.swift */,
+				2608B59B2B890C6A00EE3F36 /* dogSound.mp3 */,
 				2608B5932B8905C500EE3F36 /* pet.gif */,
+				2627C27D2B885265005DEC0B /* GoogleService-Info.plist */,
 				2627C2692B885209005DEC0B /* AppDelegate.swift */,
 				2627C26B2B885209005DEC0B /* SceneDelegate.swift */,
 			);
@@ -163,9 +172,11 @@
 			files = (
 				26952BD12B890D5B00815A0E /* clap.gif in Resources */,
 				2627C2762B88520B005DEC0B /* LaunchScreen.storyboard in Resources */,
+				2627C27E2B885265005DEC0B /* GoogleService-Info.plist in Resources */,
 				2627C2732B88520B005DEC0B /* Assets.xcassets in Resources */,
 				2608B5942B8905C500EE3F36 /* pet.gif in Resources */,
 				2627C2712B885209005DEC0B /* Main.storyboard in Resources */,
+				2608B59C2B890C6A00EE3F36 /* dogSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2608B59A2B8909E000EE3F36 /* Mp3Player.swift in Sources */,
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
 				2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */,
 				2627C26C2B885209005DEC0B /* SceneDelegate.swift in Sources */,
