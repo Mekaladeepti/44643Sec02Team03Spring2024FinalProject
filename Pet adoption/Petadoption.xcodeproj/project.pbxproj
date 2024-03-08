@@ -21,6 +21,7 @@
 		2627C27E2B885265005DEC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2627C27D2B885265005DEC0B /* GoogleService-Info.plist */; };
 		26952BD12B890D5B00815A0E /* clap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26952BD02B890D5B00815A0E /* clap.gif */; };
 		30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30638BC72B9981AA00B0E9C1 /* Color.swift */; };
+		30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749C2B9B7C8B0018F59D /* Constants.swift */; };
 		5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */; };
 		5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */; };
 		D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */; };
@@ -44,6 +45,7 @@
 		2627C27D2B885265005DEC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26952BD02B890D5B00815A0E /* clap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clap.gif; sourceTree = "<group>"; };
 		30638BC72B9981AA00B0E9C1 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		30A4749C2B9B7C8B0018F59D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDateTimePicker.swift; sourceTree = "<group>"; };
 		5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableLabel.swift; sourceTree = "<group>"; };
 		D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithShawdow.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */,
 				5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */,
 				D7EA20FB2B9B5F8100374889 /* DesignableView.swift */,
+				30A4749C2B9B7C8B0018F59D /* Constants.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */,
 				2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */,
 				2608B5792B89019500EE3F36 /* LoginVC.swift in Sources */,
+				30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
