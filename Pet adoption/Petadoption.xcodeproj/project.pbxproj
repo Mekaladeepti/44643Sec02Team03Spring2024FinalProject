@@ -21,6 +21,8 @@
 		2627C27E2B885265005DEC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2627C27D2B885265005DEC0B /* GoogleService-Info.plist */; };
 		26952BD12B890D5B00815A0E /* clap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26952BD02B890D5B00815A0E /* clap.gif */; };
 		30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30638BC72B9981AA00B0E9C1 /* Color.swift */; };
+		5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */; };
+		5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */; };
 		D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		2627C27D2B885265005DEC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26952BD02B890D5B00815A0E /* clap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clap.gif; sourceTree = "<group>"; };
 		30638BC72B9981AA00B0E9C1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDateTimePicker.swift; sourceTree = "<group>"; };
+		5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableLabel.swift; sourceTree = "<group>"; };
 		D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonWithShawdow.swift; path = "Pet adoption/ButtonWithShawdow.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,8 @@
 			children = (
 				D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */,
 				30638BC72B9981AA00B0E9C1 /* Color.swift */,
+				5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */,
+				5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */,
 				2608B5762B89018200EE3F36 /* ViewControllers */,
 				2608B5752B88FFD400EE3F36 /* Others */,
 				2627C2722B88520B005DEC0B /* Assets.xcassets */,
@@ -194,9 +200,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2608B59A2B8909E000EE3F36 /* Mp3Player.swift in Sources */,
+				5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */,
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
 				2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */,
 				D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */,
+				5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */,
 				2627C26C2B885209005DEC0B /* SceneDelegate.swift in Sources */,
 				30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */,
 				2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */,
