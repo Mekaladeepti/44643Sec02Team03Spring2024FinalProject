@@ -44,6 +44,51 @@ Signup Page: Created basic UI and completed auto layout.
 ![WhatsApp Image 2024-02-23 at 23 31 50_d8de6cfd](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/70cc5035-ca6f-42b8-afd2-31dda7e11ed5)
 
 
+Pet Adoption App is a cutting-edge mobile application designed to provide users with a seamless and intuitive experience. We've recently undergone a significant UI overhaul, revamping our login, signup, and welcome pages to enhance usability and aesthetics.
+
+What's New:
+Redesigned UI: Our login, signup, and welcome pages have been completely revamped to provide a fresh and modern look.
+API Integration: We've integrated APIs to streamline communication between our app and external services, ensuring a smoother user experience.
+Custom Views: We've introduced custom views, including a global picker, back button, and buttons with shadows, to add polish and functionality to our interface.
+Designable View Class: We've implemented a designable view class to easily manage and customize the appearance of UI elements throughout the app.
+Interactive Feedback: Users will now be greeted with a pleasant sound upon opening the app, adding an interactive touch to their experience.
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/bd9fe0de-ba18-4a81-8f94-9b14bfb72733">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/e2b32152-56c1-42de-940e-04c77426be96">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/0514b2b0-85e6-4916-bce2-22f94eaf80b7">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/c176d319-f615-4ac0-b6ce-8c09a2178dff">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/90cb50b9-788a-427e-831d-b003a4eb6414">
+
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/30d2c571-22fe-46be-b0cb-e0ce8b674d7f">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/0f9833a6-609c-4053-b95c-ca4f7d7f6fe3">
+
+
+
+<img width="958" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/9ce58d06-dc3c-4c98-9bc6-9721774d93bd">
+
+
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/a6d022ec-c80c-4ab8-a35a-856204c18239">
 
 
 
