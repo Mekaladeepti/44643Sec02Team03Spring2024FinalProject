@@ -28,6 +28,7 @@
 		D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */; };
 		D76A914F2BAF90D20088AC50 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A914E2BAF90D20088AC50 /* GIFImageView.swift */; };
 		D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA20FB2B9B5F8100374889 /* DesignableView.swift */; };
+		D7EBDB592BB6687700CD98F7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EBDB582BB6687700CD98F7 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithShawdow.swift; sourceTree = "<group>"; };
 		D76A914E2BAF90D20088AC50 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
 		D7EA20FB2B9B5F8100374889 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D7EBDB582BB6687700CD98F7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,8 @@
 				2608B59B2B890C6A00EE3F36 /* dogSound.mp3 */,
 				2608B5932B8905C500EE3F36 /* pet.gif */,
 				2627C27D2B885265005DEC0B /* GoogleService-Info.plist */,
-				2627C2692B885209005DEC0B /* AppDelegate.swift */,
-				2627C26B2B885209005DEC0B /* SceneDelegate.swift */,
+				D7EBDB5A2BB668AE00CD98F7 /* DatabaseClasses */,
+				D7EBDB572BB6650400CD98F7 /* SupportingFiles */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -144,6 +146,23 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
+		D7EBDB572BB6650400CD98F7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2627C2692B885209005DEC0B /* AppDelegate.swift */,
+				2627C26B2B885209005DEC0B /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D7EBDB5A2BB668AE00CD98F7 /* DatabaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D7EBDB582BB6687700CD98F7 /* UserDefaultsManager.swift */,
+			);
+			path = DatabaseClasses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +207,9 @@
 				Base,
 			);
 			mainGroup = 2627C25D2B885209005DEC0B;
+			packageReferences = (
+				D7EBDB562BB664BC00CD98F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2627C2672B885209005DEC0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,6 +252,7 @@
 				2627C26C2B885209005DEC0B /* SceneDelegate.swift in Sources */,
 				30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */,
 				2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */,
+				D7EBDB592BB6687700CD98F7 /* UserDefaultsManager.swift in Sources */,
 				2608B5792B89019500EE3F36 /* LoginVC.swift in Sources */,
 				30A4749F2B9BBB680018F59D /* BackButton.swift in Sources */,
 				30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */,
@@ -453,6 +476,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7EBDB562BB664BC00CD98F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2627C25E2B885209005DEC0B /* Project object */;
 }

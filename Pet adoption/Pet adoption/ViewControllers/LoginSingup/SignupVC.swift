@@ -17,6 +17,7 @@ class CreateAccountVC: UIViewController ,UITextFieldDelegate {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var userType: UITextField!
     
+   
     
     @IBAction func onLockButtonPressed(_ sender: UIButton) {
         
@@ -28,6 +29,8 @@ class CreateAccountVC: UIViewController ,UITextFieldDelegate {
         }
     }
     
+    @IBAction func onCreateAccountButtonClick(_ sender: ButtonWithShadow) {
+    }
     
  
 }
