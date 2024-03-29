@@ -15,7 +15,7 @@ class GIFImageView: UIImageView {
     private var gifURL: URL?
     private var gifSource: CGImageSource?
     private var gifFrames = [UIImage]()
-    private var gifProperties = [String: Any]()
+    private var gifProperty = [String: Any]()
     private var currentFrame = 0
     private var gifFrameTime = 0.0
     
@@ -50,7 +50,7 @@ class GIFImageView: UIImageView {
         }
         
         let properties = CGImageSourceCopyProperties(source, nil)
-        gifProperties = (properties as? [String: Any]) ?? [:]
+        gifProperty = (properties as? [String: Any]) ?? [:]
         gifFrameTime = durationForFrame(at: currentFrame)
         
         startAnimatingGif()
@@ -60,7 +60,7 @@ class GIFImageView: UIImageView {
         guard let source = gifSource else { return 0 }
         
         let frameProperties = CGImageSourceCopyPropertiesAtIndex(source, index, nil)
-        let gifProperties = (frameProperties as? [String: Any]) ?? self.gifProperties
+        let gifProperties = (frameProperties as? [String: Any]) ?? self.gifProperty
         
         var delayTime = gifProperties[kCGImagePropertyGIFDelayTime as String] as? Double ?? 0
         if delayTime < 0.1 {
