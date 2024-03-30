@@ -129,6 +129,13 @@ Pet Adoption App is a cutting-edge mobile application designed to provide users 
 
 <img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/df0b5010-b318-4dc4-9f75-de9d06cbfa42">
 
+Project description:
+we have changed the login welcome and signup pages for adding new features in the UI
+We have created a GIFImage view class subclass of UIImage View , outlets for login button added extension for Ui image.
+And also changed the view controller for new look.
+Modification the errors in the Page indicator. 
+
+
 
 
 
