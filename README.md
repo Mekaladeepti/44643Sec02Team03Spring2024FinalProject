@@ -91,4 +91,49 @@ Interactive Feedback: Users will now be greeted with a pleasant sound upon openi
 <img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/a6d022ec-c80c-4ab8-a35a-856204c18239">
 
 
+Pet Adoption App is a cutting-edge mobile application designed to provide users with a seamless and intuitive experience. We've recently undergone a significant UI overhaul, revamping our login, signup, and welcome pages to enhance usability and aesthetics.
+
+
+
+![image](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/15f4e94b-6a6a-4387-a523-4d4e220a7aa4)
+
+
+
+![image](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/99bbe773-0b99-4003-979b-f2ce0e967168)
+
+
+
+![image](https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/bf82fba7-9653-4086-bf9d-4e380b47d033)
+
+
+
+<img width="958" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/f8d1c080-82a0-4709-a0e8-84fb644fbe29">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/822a0b72-b899-4aca-9792-48c67453d4f2">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/aaaea1cc-611c-4be1-bfdd-68641f310bc9">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/eac64364-53ac-42d3-aa2f-2c78686755c0">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/1dccf52b-e19b-4044-b764-9f31c83be354">
+
+
+
+<img width="960" alt="image" src="https://github.com/Mekaladeepti/44643Sec02Team03Spring2024FinalProject/assets/143119940/df0b5010-b318-4dc4-9f75-de9d06cbfa42">
+
+
+
+
+
+
+
+
 
