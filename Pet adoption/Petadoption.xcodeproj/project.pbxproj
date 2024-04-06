@@ -29,6 +29,7 @@
 		5EE816F42BB78BA700FAB358 /* UIImageAspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE816F32BB78BA700FAB358 /* UIImageAspectFit.swift */; };
 		D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */; };
 		D76A914F2BAF90D20088AC50 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A914E2BAF90D20088AC50 /* GIFImageView.swift */; };
+		D77E9F232BC1C04E008DD0EE /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E9F222BC1C04E008DD0EE /* UIViewControllerExt.swift */; };
 		D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA20FB2B9B5F8100374889 /* DesignableView.swift */; };
 		D7EBDB592BB6687700CD98F7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EBDB582BB6687700CD98F7 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		5EE816F32BB78BA700FAB358 /* UIImageAspectFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageAspectFit.swift; sourceTree = "<group>"; };
 		D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithShawdow.swift; sourceTree = "<group>"; };
 		D76A914E2BAF90D20088AC50 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
+		D77E9F222BC1C04E008DD0EE /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		D7EA20FB2B9B5F8100374889 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		D7EBDB582BB6687700CD98F7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				D7EBDB582BB6687700CD98F7 /* UserDefaultsManager.swift */,
+				D77E9F222BC1C04E008DD0EE /* UIViewControllerExt.swift */,
 			);
 			path = DatabaseClasses;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			files = (
 				2608B59A2B8909E000EE3F36 /* Mp3Player.swift in Sources */,
 				5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */,
+				D77E9F232BC1C04E008DD0EE /* UIViewControllerExt.swift in Sources */,
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
 				D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */,
 				2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */,
