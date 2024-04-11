@@ -1,5 +1,11 @@
+//
+//  
+//  Pet adoption
+//
+//  Created by MekalaDeepthi on 4/11/24.
+//
 
-import Foundation
+import UIKit
 
 class UserDefaultsDb  {
    
@@ -47,19 +53,17 @@ class UserDefaultsDb  {
         UserDefaults.standard.setValue(address, forKey: "address")
     }
    
-   func getUserName()-> String {
-      return UserDefaults.standard.string(forKey: "username") ?? ""
-   }
+ 
    
    func getPhone()-> String {
-      return UserDefaults.standard.string(forKey: "phone") ?? ""
+      return UserDefaults.standard.string(forKey: "mobile") ?? ""
    }
    
    func getPassword()-> String {
       return UserDefaults.standard.string(forKey: "password") ?? ""
    }
 
-   func getMobile()-> String? {
+   func getMobile()-> String {
        return UserDefaults.standard.string(forKey: "mobile") ?? ""
    }
    
@@ -67,12 +71,13 @@ class UserDefaultsDb  {
       return UserDefaults.standard.string(forKey: "documentId") ?? ""
    }
    
-    func saveData(name:String, email:String, password: String,mobile:String,address:String) {
+    func saveData(name:String, email:String, password: String,mobile:String,address:String,documentId:String) {
        UserDefaults.standard.setValue(name, forKey: "name")
        UserDefaults.standard.setValue(email, forKey: "email")
        UserDefaults.standard.setValue(password, forKey: "password")
        UserDefaults.standard.setValue(mobile, forKey: "mobile")
        UserDefaults.standard.setValue(address, forKey: "address")
+       UserDefaults.standard.setValue(documentId, forKey: "documentId")
    }
  
     
