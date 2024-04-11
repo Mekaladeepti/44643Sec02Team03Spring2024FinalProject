@@ -21,6 +21,7 @@
 		2627C27E2B885265005DEC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2627C27D2B885265005DEC0B /* GoogleService-Info.plist */; };
 		26952BD12B890D5B00815A0E /* clap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26952BD02B890D5B00815A0E /* clap.gif */; };
 		30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30638BC72B9981AA00B0E9C1 /* Color.swift */; };
+		3089B9C92BC824C70060BC61 /* ProfiressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089B9C82BC824C70060BC61 /* ProfiressHud.swift */; };
 		30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749C2B9B7C8B0018F59D /* Constants.swift */; };
 		30A4749F2B9BBB680018F59D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749E2B9BBB680018F59D /* BackButton.swift */; };
 		5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */; };
@@ -52,6 +53,7 @@
 		2627C27D2B885265005DEC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26952BD02B890D5B00815A0E /* clap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clap.gif; sourceTree = "<group>"; };
 		30638BC72B9981AA00B0E9C1 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3089B9C82BC824C70060BC61 /* ProfiressHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfiressHud.swift; sourceTree = "<group>"; };
 		30A4749C2B9B7C8B0018F59D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		30A4749E2B9BBB680018F59D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDateTimePicker.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		2627C25D2B885209005DEC0B = {
 			isa = PBXGroup;
 			children = (
+				3089B9C82BC824C70060BC61 /* ProfiressHud.swift */,
 				2627C2682B885209005DEC0B /* Pet adoption */,
 				2627C2672B885209005DEC0B /* Products */,
 			);
@@ -264,6 +267,7 @@
 				D76A914F2BAF90D20088AC50 /* GIFImageView.swift in Sources */,
 				5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */,
 				5EE816E82BB7504000FAB358 /* PageIndicator.swift in Sources */,
+				3089B9C92BC824C70060BC61 /* ProfiressHud.swift in Sources */,
 				2627C26C2B885209005DEC0B /* SceneDelegate.swift in Sources */,
 				30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */,
 				2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */,
