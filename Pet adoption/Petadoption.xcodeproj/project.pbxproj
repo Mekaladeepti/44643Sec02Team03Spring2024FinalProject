@@ -27,6 +27,7 @@
 		30A4749F2B9BBB680018F59D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749E2B9BBB680018F59D /* BackButton.swift */; };
 		5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */; };
 		5E57958D2BC81F5200F201A8 /* UserDefaultManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57958C2BC81F5200F201A8 /* UserDefaultManger.swift */; };
+		5E5795902BC9BEE400F201A8 /* PetDonor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57958F2BC9BEE400F201A8 /* PetDonor.swift */; };
 		5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */; };
 		5EE816E82BB7504000FAB358 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE816E72BB7504000FAB358 /* PageIndicator.swift */; };
 		5EE816F42BB78BA700FAB358 /* UIImageAspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE816F32BB78BA700FAB358 /* UIImageAspectFit.swift */; };
@@ -60,6 +61,7 @@
 		30A4749E2B9BBB680018F59D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDateTimePicker.swift; sourceTree = "<group>"; };
 		5E57958C2BC81F5200F201A8 /* UserDefaultManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserDefaultManger.swift; path = Databaseclasses/UserDefaultManger.swift; sourceTree = "<group>"; };
+		5E57958F2BC9BEE400F201A8 /* PetDonor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDonor.swift; sourceTree = "<group>"; };
 		5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableLabel.swift; sourceTree = "<group>"; };
 		5EE816E72BB7504000FAB358 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		5EE816F32BB78BA700FAB358 /* UIImageAspectFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageAspectFit.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				2608B5972B8905DD00EE3F36 /* AnimationScreen.swift */,
+				5E57958F2BC9BEE400F201A8 /* PetDonor.swift */,
 				2608B57B2B89019900EE3F36 /* LoginSingup */,
 			);
 			path = ViewControllers;
@@ -266,6 +269,7 @@
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
 				D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */,
 				2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */,
+				5E5795902BC9BEE400F201A8 /* PetDonor.swift in Sources */,
 				D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */,
 				305A30822BC92533008B6CA3 /* GlobalMonthPicker.swift in Sources */,
 				D76A914F2BAF90D20088AC50 /* GIFImageView.swift in Sources */,
