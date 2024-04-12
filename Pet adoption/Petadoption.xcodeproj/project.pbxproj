@@ -20,6 +20,7 @@
 		2627C2762B88520B005DEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2627C2742B88520B005DEC0B /* LaunchScreen.storyboard */; };
 		2627C27E2B885265005DEC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2627C27D2B885265005DEC0B /* GoogleService-Info.plist */; };
 		26952BD12B890D5B00815A0E /* clap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26952BD02B890D5B00815A0E /* clap.gif */; };
+		305A30822BC92533008B6CA3 /* GlobalMonthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A30812BC92533008B6CA3 /* GlobalMonthPicker.swift */; };
 		30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30638BC72B9981AA00B0E9C1 /* Color.swift */; };
 		3089B9C92BC824C70060BC61 /* ProfiressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089B9C82BC824C70060BC61 /* ProfiressHud.swift */; };
 		30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749C2B9B7C8B0018F59D /* Constants.swift */; };
@@ -52,6 +53,7 @@
 		2627C2772B88520B005DEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2627C27D2B885265005DEC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26952BD02B890D5B00815A0E /* clap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clap.gif; sourceTree = "<group>"; };
+		305A30812BC92533008B6CA3 /* GlobalMonthPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMonthPicker.swift; sourceTree = "<group>"; };
 		30638BC72B9981AA00B0E9C1 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3089B9C82BC824C70060BC61 /* ProfiressHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfiressHud.swift; sourceTree = "<group>"; };
 		30A4749C2B9B7C8B0018F59D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				2627C26F2B885209005DEC0B /* Main.storyboard */,
 				2627C2742B88520B005DEC0B /* LaunchScreen.storyboard */,
 				2627C2772B88520B005DEC0B /* Info.plist */,
+				305A30812BC92533008B6CA3 /* GlobalMonthPicker.swift */,
 			);
 			path = "Pet adoption";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */,
 				2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */,
 				D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */,
+				305A30822BC92533008B6CA3 /* GlobalMonthPicker.swift in Sources */,
 				D76A914F2BAF90D20088AC50 /* GIFImageView.swift in Sources */,
 				5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */,
 				5EE816E82BB7504000FAB358 /* PageIndicator.swift in Sources */,
