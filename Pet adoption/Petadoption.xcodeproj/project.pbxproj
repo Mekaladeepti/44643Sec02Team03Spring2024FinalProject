@@ -31,6 +31,10 @@
 		5E8607362B9A98F0009B63C0 /* ClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */; };
 		5EE816E82BB7504000FAB358 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE816E72BB7504000FAB358 /* PageIndicator.swift */; };
 		5EE816F42BB78BA700FAB358 /* UIImageAspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE816F32BB78BA700FAB358 /* UIImageAspectFit.swift */; };
+		D701EBEB2BC9CDDC0010A47F /* BundleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701EBEA2BC9CDDC0010A47F /* BundleModule.swift */; };
+		D701EBED2BC9CE690010A47F /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701EBEC2BC9CE690010A47F /* ImageSlideshow.swift */; };
+		D701EBEF2BC9CEBE0010A47F /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701EBEE2BC9CEBE0010A47F /* ActivityIndicator.swift */; };
+		D701EBF12BC9CF100010A47F /* PageIndicatorPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701EBF02BC9CF100010A47F /* PageIndicatorPosition.swift */; };
 		D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */; };
 		D76A914F2BAF90D20088AC50 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A914E2BAF90D20088AC50 /* GIFImageView.swift */; };
 		D77E9F232BC1C04E008DD0EE /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E9F222BC1C04E008DD0EE /* UIViewControllerExt.swift */; };
@@ -65,6 +69,10 @@
 		5E8607352B9A98F0009B63C0 /* ClickableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableLabel.swift; sourceTree = "<group>"; };
 		5EE816E72BB7504000FAB358 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		5EE816F32BB78BA700FAB358 /* UIImageAspectFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageAspectFit.swift; sourceTree = "<group>"; };
+		D701EBEA2BC9CDDC0010A47F /* BundleModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleModule.swift; sourceTree = "<group>"; };
+		D701EBEC2BC9CE690010A47F /* ImageSlideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideshow.swift; sourceTree = "<group>"; };
+		D701EBEE2BC9CEBE0010A47F /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		D701EBF02BC9CF100010A47F /* PageIndicatorPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorPosition.swift; sourceTree = "<group>"; };
 		D743A7E22B997B860002A73B /* ButtonWithShawdow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithShawdow.swift; sourceTree = "<group>"; };
 		D76A914E2BAF90D20088AC50 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
 		D77E9F222BC1C04E008DD0EE /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
@@ -141,6 +149,10 @@
 				2608B5752B88FFD400EE3F36 /* Others */,
 				2627C2722B88520B005DEC0B /* Assets.xcassets */,
 				2627C26F2B885209005DEC0B /* Main.storyboard */,
+				D701EBF02BC9CF100010A47F /* PageIndicatorPosition.swift */,
+				D701EBEE2BC9CEBE0010A47F /* ActivityIndicator.swift */,
+				D701EBEA2BC9CDDC0010A47F /* BundleModule.swift */,
+				D701EBEC2BC9CE690010A47F /* ImageSlideshow.swift */,
 				2627C2742B88520B005DEC0B /* LaunchScreen.storyboard */,
 				2627C2772B88520B005DEC0B /* Info.plist */,
 				305A30812BC92533008B6CA3 /* GlobalMonthPicker.swift */,
@@ -265,6 +277,8 @@
 				2608B59A2B8909E000EE3F36 /* Mp3Player.swift in Sources */,
 				5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */,
 				D77E9F232BC1C04E008DD0EE /* UIViewControllerExt.swift in Sources */,
+				D701EBF12BC9CF100010A47F /* PageIndicatorPosition.swift in Sources */,
+				D701EBEB2BC9CDDC0010A47F /* BundleModule.swift in Sources */,
 				5E57958D2BC81F5200F201A8 /* UserDefaultManger.swift in Sources */,
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
 				D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */,
@@ -277,10 +291,12 @@
 				5EE816E82BB7504000FAB358 /* PageIndicator.swift in Sources */,
 				3089B9C92BC824C70060BC61 /* ProfiressHud.swift in Sources */,
 				2627C26C2B885209005DEC0B /* SceneDelegate.swift in Sources */,
+				D701EBEF2BC9CEBE0010A47F /* ActivityIndicator.swift in Sources */,
 				30638BC82B9981AA00B0E9C1 /* Color.swift in Sources */,
 				2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */,
 				D7EBDB592BB6687700CD98F7 /* UserDefaultsManager.swift in Sources */,
 				2608B5792B89019500EE3F36 /* LoginVC.swift in Sources */,
+				D701EBED2BC9CE690010A47F /* ImageSlideshow.swift in Sources */,
 				5EE816F42BB78BA700FAB358 /* UIImageAspectFit.swift in Sources */,
 				30A4749F2B9BBB680018F59D /* BackButton.swift in Sources */,
 				30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */,
