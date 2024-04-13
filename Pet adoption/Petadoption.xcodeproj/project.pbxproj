@@ -25,6 +25,7 @@
 		3089B9C92BC824C70060BC61 /* ProfiressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089B9C82BC824C70060BC61 /* ProfiressHud.swift */; };
 		30A4749D2B9B7C8B0018F59D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749C2B9B7C8B0018F59D /* Constants.swift */; };
 		30A4749F2B9BBB680018F59D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4749E2B9BBB680018F59D /* BackButton.swift */; };
+		30D6FD7E2BCA091400FB2B8F /* CollectionViewCell in Sources */ = {isa = PBXBuildFile; fileRef = 30D6FD7D2BCA091400FB2B8F /* CollectionViewCell */; };
 		5E1B6CBE2B9A94DC007073DB /* GlobalDateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */; };
 		5E57958D2BC81F5200F201A8 /* UserDefaultManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57958C2BC81F5200F201A8 /* UserDefaultManger.swift */; };
 		5E5795902BC9BEE400F201A8 /* PetDonor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57958F2BC9BEE400F201A8 /* PetDonor.swift */; };
@@ -63,6 +64,7 @@
 		3089B9C82BC824C70060BC61 /* ProfiressHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfiressHud.swift; sourceTree = "<group>"; };
 		30A4749C2B9B7C8B0018F59D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		30A4749E2B9BBB680018F59D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		30D6FD7D2BCA091400FB2B8F /* CollectionViewCell */ = {isa = PBXFileReference; lastKnownFileType = text; path = CollectionViewCell; sourceTree = "<group>"; };
 		5E1B6CBD2B9A94DC007073DB /* GlobalDateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDateTimePicker.swift; sourceTree = "<group>"; };
 		5E57958C2BC81F5200F201A8 /* UserDefaultManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserDefaultManger.swift; path = Databaseclasses/UserDefaultManger.swift; sourceTree = "<group>"; };
 		5E57958F2BC9BEE400F201A8 /* PetDonor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDonor.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				3089B9C82BC824C70060BC61 /* ProfiressHud.swift */,
+				30D6FD7D2BCA091400FB2B8F /* CollectionViewCell */,
 				2627C2682B885209005DEC0B /* Pet adoption */,
 				2627C2672B885209005DEC0B /* Products */,
 			);
@@ -282,6 +285,7 @@
 				5E57958D2BC81F5200F201A8 /* UserDefaultManger.swift in Sources */,
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
 				D7EA20FC2B9B5F8100374889 /* DesignableView.swift in Sources */,
+				30D6FD7E2BCA091400FB2B8F /* CollectionViewCell in Sources */,
 				2627C26A2B885209005DEC0B /* AppDelegate.swift in Sources */,
 				5E5795902BC9BEE400F201A8 /* PetDonor.swift in Sources */,
 				D743A7E32B997B860002A73B /* ButtonWithShawdow.swift in Sources */,
