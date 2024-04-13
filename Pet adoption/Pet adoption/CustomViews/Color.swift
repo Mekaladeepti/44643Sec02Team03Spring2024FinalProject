@@ -4,10 +4,10 @@
 //
 //  Created by Srilakshmi on 3/6/24
 import UIKit
- 
+
 extension UIColor {
     static var appColor: UIColor {
-        return UIColor(hex: "20444C")
+        return UIColor(hex: "622A0F")
     }
     
     convenience init(hex: String, alpha: CGFloat = 1.0) {

@@ -7,26 +7,25 @@
 
 import UIKit
 
-class ClickableLabel: UILabel {
-       var onClick: () -> Void = {}
+open class ClickableLabel: UILabel {
     
-       public override init(frame: CGRect) {
-           super.init(frame: frame)
-           isUserInteractionEnabled = true
-       }
-       
-       public required init?(coder: NSCoder) {
-           super.init(coder: coder)
-       }
-       
-       public convenience init() {
-           self.init(frame: .zero)
-       }
-       
-       open override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-           onClick()
-       }
+    var onClick: () -> Void = {}
+    
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        isUserInteractionEnabled = true
+    }
+    
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
+    public convenience init() {
+        self.init(frame: .zero)
+    }
+    
+    open override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        onClick()
+    }
 }
-    
-
-
+ 

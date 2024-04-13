@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 @IBDesignable
 class DesignableView: UIView {
     @IBInspectable var shadowColor: UIColor = UIColor.clear {
@@ -31,13 +32,4 @@ class DesignableView: UIView {
             layer.shadowOffset.height = shadowOffsetY
         }
     }
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }

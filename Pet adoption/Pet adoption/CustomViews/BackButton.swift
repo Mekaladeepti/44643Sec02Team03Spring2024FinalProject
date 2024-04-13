@@ -8,7 +8,7 @@
 import UIKit
 
 class BackButton: UIButton {
-
+    
     override func awakeFromNib() {
         self.addTarget(self, action: #selector(goBack), for: .touchUpInside)
     }
