@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Petadoption
 //
-//  Created by Srilakshmi Arthimalla on 3/4/24.
+//  Created by Durga Sambhavi Mamillapalli on 3/4/24.
 //
 import UIKit
 

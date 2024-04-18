@@ -3,7 +3,7 @@ import UIKit
 
 class MessageCell: UICollectionViewCell {
     
-   
+    
     
     var message: Message? {
         didSet { configure() }
@@ -37,7 +37,7 @@ class MessageCell: UICollectionViewCell {
         return view
     }()
     
-   
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)

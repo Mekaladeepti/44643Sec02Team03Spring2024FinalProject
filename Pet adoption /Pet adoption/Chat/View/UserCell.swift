@@ -5,7 +5,7 @@ import SDWebImage
 
 class UserCell: UITableViewCell {
     
-   
+    
     
     var user: User? {
         didSet { configure() }
@@ -34,7 +34,7 @@ class UserCell: UITableViewCell {
         return label
     }()
     
-   
+    
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

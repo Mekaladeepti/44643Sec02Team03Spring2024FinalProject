@@ -2,7 +2,7 @@
 //  UIImage+AspectFit.swift
 //  ImageSlideshow
 //
-//  Created by Srilakshmi  Arthimalla on 4/11/24.
+//  Created by Srilakshmi on 4/11/24.
 //
 //
 

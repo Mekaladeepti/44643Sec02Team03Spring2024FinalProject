@@ -7,7 +7,7 @@ protocol ProfileHeaderDelegate: AnyObject {
 
 class ProfileHeader: UIView {
     
-   
+    
     
     var user: User? {
         didSet { populateUserData() }
@@ -67,7 +67,7 @@ class ProfileHeader: UIView {
         delegate?.dismissController()
     }
     
- 
+    
     
     func populateUserData() {
         guard let user = user else { return }

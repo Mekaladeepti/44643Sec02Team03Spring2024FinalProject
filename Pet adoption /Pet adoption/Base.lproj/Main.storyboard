@@ -2906,8 +2906,8 @@
         <image name="person.circle" catalog="system" width="128" height="123"/>
         <image name="pet" width="32" height="32"/>
         <image name="pet_anim.gif" width="450" height="450"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="plus" width="32" height="32"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="time" width="32" height="32"/>
         <image name="user" width="64" height="64"/>
         <namedColor name="AppButtonColor">

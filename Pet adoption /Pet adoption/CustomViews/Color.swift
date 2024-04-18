@@ -2,7 +2,7 @@
 //  Color.swift
 //  Pet adoption
 //
-//  Created by Sri Lakshmi  Arthimalla on 3/6/24.
+//  Created by Srilakshmi on 3/6/24
 import UIKit
 
 extension UIColor {

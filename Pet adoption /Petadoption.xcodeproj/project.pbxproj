@@ -38,6 +38,8 @@
 		26952BEF2B8922E900815A0E /* PetDonor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26952BEE2B8922E900815A0E /* PetDonor.swift */; };
 		26952BF12B8925A100815A0E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26952BF02B8925A100815A0E /* ProfileViewController.swift */; };
 		3E70FE852BD13B4D00CEB224 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70FE6B2BD13B4D00CEB224 /* Service.swift */; };
+		3E70FE862BD13B4D00CEB224 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70FE6D2BD13B4D00CEB224 /* ChatController.swift */; };
+		3E70FE882BD13B4D00CEB224 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70FE6F2BD13B4D00CEB224 /* NewMessageController.swift */; };
 		3E70FE892BD13B4D00CEB224 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70FE712BD13B4D00CEB224 /* Extensions.swift */; };
 		3E70FE8A2BD13B4D00CEB224 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70FE732BD13B4D00CEB224 /* Message.swift */; };
 		3E70FE8B2BD13B4D00CEB224 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70FE742BD13B4D00CEB224 /* User.swift */; };
@@ -138,6 +140,8 @@
 		26952BEE2B8922E900815A0E /* PetDonor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDonor.swift; sourceTree = "<group>"; };
 		26952BF02B8925A100815A0E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3E70FE6B2BD13B4D00CEB224 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3E70FE6D2BD13B4D00CEB224 /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		3E70FE6F2BD13B4D00CEB224 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		3E70FE712BD13B4D00CEB224 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3E70FE732BD13B4D00CEB224 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		3E70FE742BD13B4D00CEB224 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -354,6 +358,15 @@
 			path = "Pet Receiver";
 			sourceTree = "<group>";
 		};
+		3E70FE702BD13B4D00CEB224 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E70FE6D2BD13B4D00CEB224 /* ChatController.swift */,
+				3E70FE6F2BD13B4D00CEB224 /* NewMessageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3E70FE722BD13B4D00CEB224 /* Extenstions */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +414,7 @@
 			isa = PBXGroup;
 			children = (
 				3E70FE6B2BD13B4D00CEB224 /* Service.swift */,
+				3E70FE702BD13B4D00CEB224 /* Controller */,
 				3E70FE722BD13B4D00CEB224 /* Extenstions */,
 				3E70FE752BD13B4D00CEB224 /* Model */,
 				3E70FE7F2BD13B4D00CEB224 /* View */,
@@ -646,6 +660,7 @@
 				268F49C22BA71C020067EBA9 /* PetBasicDetailsCell.swift in Sources */,
 				3E70FE922BD13B4D00CEB224 /* ProfileFooter.swift in Sources */,
 				2608B5892B8901D100EE3F36 /* GlobalDateTimePicker.swift in Sources */,
+				3E70FE882BD13B4D00CEB224 /* NewMessageController.swift in Sources */,
 				80F7BBEB2BBD248E009A79D3 /* MapTabsView.swift in Sources */,
 				800C18862BA7456E003C877E /* HomeVC.swift in Sources */,
 				2608B57A2B89019500EE3F36 /* SignupVC.swift in Sources */,
@@ -686,6 +701,7 @@
 				2608B5982B8905DD00EE3F36 /* AnimationScreen.swift in Sources */,
 				80F7BBD32BBD1D42009A79D3 /* RequestMeetingVC.swift in Sources */,
 				3EF8CBCD2BC2A00400D42D84 /* MeetingHistoryVC.swift in Sources */,
+				3E70FE862BD13B4D00CEB224 /* ChatController.swift in Sources */,
 				2608B5792B89019500EE3F36 /* LoginVC.swift in Sources */,
 				3E70FE852BD13B4D00CEB224 /* Service.swift in Sources */,
 				3E70FE892BD13B4D00CEB224 /* Extensions.swift in Sources */,
