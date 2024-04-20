@@ -355,7 +355,7 @@ class FireDbHelper {
                     
                     for document in querySnapshot!.documents {
                         do {
-                            var temp = try document.data(as: MeetingRequestData.self)
+                            let temp = try document.data(as: MeetingRequestData.self)
                             list.append(temp)
                         } catch let error {
                             print(error)
@@ -382,7 +382,7 @@ class FireDbHelper {
                     
                     for document in querySnapshot!.documents {
                         do {
-                            var temp = try document.data(as: MeetingRequestData.self)
+                            let temp = try document.data(as: MeetingRequestData.self)
                             list.append(temp)
                         } catch let error {
                             print(error)

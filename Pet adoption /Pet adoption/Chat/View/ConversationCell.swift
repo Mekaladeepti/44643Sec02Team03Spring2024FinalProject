@@ -3,7 +3,7 @@ import UIKit
 
 class ConversationCell: UITableViewCell {
     
-  
+
     
     var conversation: Conversation? {
         didSet { configure() }

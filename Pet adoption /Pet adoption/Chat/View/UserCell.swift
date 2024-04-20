@@ -58,7 +58,7 @@ class UserCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
+   
     
     func configure() {
         guard let user = user else { return }

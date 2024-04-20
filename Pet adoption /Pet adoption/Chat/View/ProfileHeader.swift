@@ -62,12 +62,12 @@ class ProfileHeader: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
+   
     @objc func handleDismissal() {
         delegate?.dismissController()
     }
     
-    
+   
     
     func populateUserData() {
         guard let user = user else { return }

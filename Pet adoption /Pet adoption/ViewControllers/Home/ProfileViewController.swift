@@ -16,12 +16,13 @@ class ProfileViewController: UIViewController,UITextFieldDelegate {
         mobile.delegate = self
         self.userType.text = "Welcome"
     }
+  
     override func viewWillAppear(_ animated: Bool) {
         
         self.email.text = userDefaults.getEmail()
         
         FireDbHelper.shared.dbRef.document(userDefaults.getDocumentId()).getDocument { (document, error) in
-            if let error = error {
+            if error != nil {
                 
             } else {
                 if let document = document, document.exists {
@@ -80,5 +81,16 @@ class ProfileViewController: UIViewController,UITextFieldDelegate {
         
     }
     
+    
+}
+
+
+extension ProfileViewController {
+    
+
+    @IBAction func onAbout(_ sender: Any) {
+        
+        
+    }
     
 }

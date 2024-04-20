@@ -24,7 +24,7 @@ class NewMessageController: UIViewController,UITableViewDelegate,UITableViewData
    
     
     
-   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +42,7 @@ class NewMessageController: UIViewController,UITableViewDelegate,UITableViewData
         self.tabBarController?.tabBar.backgroundColor = self.view.backgroundColor
         
     }
- 
+    
     
     @objc func handleDismissal() {
         dismiss(animated: true, completion: nil)
@@ -60,7 +60,7 @@ class NewMessageController: UIViewController,UITableViewDelegate,UITableViewData
         }
     }
     
-    
+   
     
     func configureUI() {
         

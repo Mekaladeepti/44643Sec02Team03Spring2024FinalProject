@@ -532,6 +532,53 @@
             </objects>
             <point key="canvasLocation" x="396.18320610687022" y="1101.4084507042255"/>
         </scene>
+        <!--AboutVC-->
+        <scene sceneID="ddK-ao-iwf">
+            <objects>
+                <viewController storyboardIdentifier="AboutVC" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zi0-Ab-JvB" customClass="AboutVC" customModule="Pet_adoption" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cHm-OW-Iz9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKX-6p-1L6">
+                                <rect key="frame" x="20" y="76" width="353" height="31.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fA-6T-Vch" customClass="BackButton" customModule="Pet_adoption" customModuleProvider="target">
+                                <rect key="frame" x="329" y="76" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aKy-HD-ujD"/>
+                                    <constraint firstAttribute="width" constant="44" id="lCr-s0-nem"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="x.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="onAbout:" destination="XGd-Jf-8m3" eventType="touchUpInside" id="12e-i6-aQf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6rz-8H-Osu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LKX-6p-1L6" firstAttribute="top" secondItem="6rz-8H-Osu" secondAttribute="top" constant="20" id="3h9-kD-CwZ"/>
+                            <constraint firstItem="6rz-8H-Osu" firstAttribute="trailing" secondItem="LKX-6p-1L6" secondAttribute="trailing" constant="20" id="BqG-0g-nWp"/>
+                            <constraint firstItem="6rz-8H-Osu" firstAttribute="trailing" secondItem="6fA-6T-Vch" secondAttribute="trailing" constant="20" id="D1M-mS-etI"/>
+                            <constraint firstItem="LKX-6p-1L6" firstAttribute="leading" secondItem="6rz-8H-Osu" secondAttribute="leading" constant="20" id="M94-H4-v9e"/>
+                            <constraint firstItem="6fA-6T-Vch" firstAttribute="top" secondItem="6rz-8H-Osu" secondAttribute="top" constant="20" id="bG0-rT-Pvi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NGf-cZ-gi8"/>
+                    <connections>
+                        <outlet property="aboutLabel" destination="LKX-6p-1L6" id="Cr2-rl-Law"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kxT-O9-ewY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1344" y="1854"/>
+        </scene>
         <!--Profile-->
         <scene sceneID="8gb-B4-zz2">
             <objects>
@@ -553,11 +600,27 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="gifImage" value="clap"/>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTd-Ne-T2d">
+                                        <rect key="frame" x="289" y="20" width="54" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="C5m-z5-Kc2"/>
+                                            <constraint firstAttribute="height" constant="44" id="qLT-j3-ijY"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="info.circle.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="onAbout:" destination="XGd-Jf-8m3" eventType="touchUpInside" id="Ojf-jy-rHh"/>
+                                            <segue destination="5fj-EJ-l28" kind="show" id="axD-yi-KTp"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WTd-Ne-T2d" secondAttribute="trailing" constant="10" id="Mmn-0b-Lgi"/>
                                     <constraint firstItem="cFm-Bo-hYY" firstAttribute="centerY" secondItem="3Oj-g9-7b1" secondAttribute="centerY" id="UWs-rJ-o09"/>
                                     <constraint firstItem="cFm-Bo-hYY" firstAttribute="centerX" secondItem="3Oj-g9-7b1" secondAttribute="centerX" id="Y8T-TW-BQD"/>
+                                    <constraint firstItem="WTd-Ne-T2d" firstAttribute="top" secondItem="3Oj-g9-7b1" secondAttribute="top" constant="20" id="k9M-v5-2eJ"/>
                                     <constraint firstAttribute="height" constant="160" id="nII-VQ-9Dw"/>
                                 </constraints>
                             </view>
@@ -827,7 +890,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ES0-Si-TRN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1457" y="1854"/>
+            <point key="canvasLocation" x="-530.53435114503816" y="1853.5211267605634"/>
         </scene>
         <!--Pet DetailVC-->
         <scene sceneID="eNU-vS-Otw">
@@ -1472,7 +1535,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTs-Oc-IbV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-454" y="1749"/>
+            <point key="canvasLocation" x="472.51908396946561" y="1748.5915492957747"/>
         </scene>
         <!--Request MeetingVC-->
         <scene sceneID="kUW-pu-aQO">
@@ -2396,7 +2459,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jb1-A8-2gx" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="428" y="1749"/>
+            <point key="canvasLocation" x="1353.4351145038167" y="1748.5915492957747"/>
         </scene>
         <!--Home-->
         <scene sceneID="Lbb-Sd-lOi">
@@ -2804,7 +2867,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKT-HX-iLy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1350" y="1799"/>
+            <point key="canvasLocation" x="2275.5725190839694" y="1798.5915492957747"/>
         </scene>
         <!--New Message Controller-->
         <scene sceneID="4Ef-Bb-v1i">
@@ -2876,6 +2939,25 @@
             </objects>
             <point key="canvasLocation" x="-1344.2748091603053" y="1100.7042253521126"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zIn-uw-B2J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="5fj-EJ-l28" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="6YS-49-3lG"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B5U-kB-Gfi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zi0-Ab-JvB" kind="relationship" relationship="rootViewController" id="adh-Sb-Ize"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trh-k1-tcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2254.1984732824426" y="1853.5211267605634"/>
+        </scene>
     </scenes>
     <designables>
         <designable name="2qU-d7-d9e">
@@ -2898,6 +2980,7 @@
         <image name="heart" catalog="system" width="128" height="107"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="house" catalog="system" width="128" height="104"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="123"/>
         <image name="location" width="24" height="24"/>
         <image name="lock" catalog="system" width="125" height="128"/>
         <image name="male" width="32" height="32"/>
@@ -2910,6 +2993,7 @@
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="time" width="32" height="32"/>
         <image name="user" width="64" height="64"/>
+        <image name="x.circle" catalog="system" width="128" height="123"/>
         <namedColor name="AppButtonColor">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

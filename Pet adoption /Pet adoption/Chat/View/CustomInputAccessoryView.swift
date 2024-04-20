@@ -8,7 +8,7 @@ protocol CustomInputAccessoryViewDelegate: AnyObject {
 
 class CustomInputAccessoryView: UIView {
     
-
+    
     
     weak var delegate: CustomInputAccessoryViewDelegate?
     
@@ -74,7 +74,7 @@ class CustomInputAccessoryView: UIView {
         return .zero
     }
     
- 
+    
     
     @objc func handleTextInputChange() {
         placeholderLabel.isHidden = !self.messageInputTextView.text.isEmpty
@@ -87,7 +87,7 @@ class CustomInputAccessoryView: UIView {
     
     
     
-    func clearMessageText() {
+     func clearMessageText() {
         messageInputTextView.text = nil
         placeholderLabel.isHidden = false
     }

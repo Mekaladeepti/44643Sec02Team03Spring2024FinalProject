@@ -11,7 +11,7 @@ private let reuseIdentifier = "MessageCell"
 
 class ChatController: UICollectionViewController {
     
-    
+  
     
     private let user: User
     private var messages = [Message]()
@@ -109,7 +109,7 @@ extension ChatController: CustomInputAccessoryViewDelegate {
     func inputView(_ inputView: CustomInputAccessoryView, wantsToSend message: String) {
         
         Service.uploadMessage(message, to: user) { (error) in
-            if let error = error {
+            if error != nil {
                 print("DEBUG: failed to upload message with error")
                 return
             }

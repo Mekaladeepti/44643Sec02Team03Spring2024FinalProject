@@ -7,7 +7,7 @@ protocol ProfileFooterDelegate: AnyObject {
 
 class ProfileFooter: UIView {
     
-    
+   
     weak var delegate: ProfileFooterDelegate?
     
     private lazy var logoutButton: UIButton = {
@@ -35,7 +35,7 @@ class ProfileFooter: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-  
+    
     @objc func handleLogout() {
         delegate?.handleLogout()
     }
