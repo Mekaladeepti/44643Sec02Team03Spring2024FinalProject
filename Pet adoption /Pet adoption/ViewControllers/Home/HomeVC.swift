@@ -24,7 +24,7 @@ class HomeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
 
         tableView.dataSource = self
         tableView.delegate = self
-        self.locationTxt.text = "New York City"
+        self.locationTxt.text = "New York"
         self.petRecord(petType: "cat")
 
     }
